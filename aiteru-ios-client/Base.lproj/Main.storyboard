@@ -41,7 +41,7 @@
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="vU5-rl-nVg">
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="vU5-rl-nVg">
                                         <rect key="frame" x="130" y="170" width="300" height="120"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="OPEN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wSd-rA-nJF" customClass="StatusLabelDesign" customModule="aiteru_ios_client" customModuleProvider="target">
@@ -68,6 +68,9 @@
                                                 </variation>
                                             </label>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstItem="wSd-rA-nJF" firstAttribute="top" secondItem="vU5-rl-nVg" secondAttribute="top" constant="-10" id="Tzu-RL-GNl"/>
+                                        </constraints>
                                     </stackView>
                                 </subviews>
                             </stackView>
@@ -78,10 +81,14 @@
                             <constraint firstAttribute="trailingMargin" secondItem="Ode-Xl-krc" secondAttribute="trailing" id="iM1-6B-ND0"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="placeLabel" destination="xVG-rQ-kjY" id="ZFE-ag-iHO"/>
+                        <outlet property="statusLabel" destination="wSd-rA-nJF" id="XkI-8A-Y1B"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="429"/>
+            <point key="canvasLocation" x="293" y="245"/>
         </scene>
     </scenes>
 </document>
