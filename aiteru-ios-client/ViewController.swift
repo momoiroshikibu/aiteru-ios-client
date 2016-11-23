@@ -19,6 +19,14 @@ class ViewController: UIViewController {
 
         placeLabel.text = "Usual Place"
         statusLabel.text = "OPEN"
+
+//        let roundedCornerLabel = UIRoundedCornerLabel(frame: CGRectMake(0, 100, 300, 25),
+//                                                      padding: 32,
+//                                                      borderColor: UIColor.blueColor().CGColor,
+//                                                      borderWidth: 8,
+//                                                      borderRadius: 8)
+//        self.view.addSubview(roundedCornerLabel)
+
     }
 
     override func didReceiveMemoryWarning() {

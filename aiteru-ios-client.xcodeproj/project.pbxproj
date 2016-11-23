@@ -15,6 +15,7 @@
 		218CA6271DE49280006BBB9C /* aiteru_ios_clientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CA6261DE49280006BBB9C /* aiteru_ios_clientTests.swift */; };
 		218CA6321DE49280006BBB9C /* aiteru_ios_clientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CA6311DE49280006BBB9C /* aiteru_ios_clientUITests.swift */; };
 		218CA6401DE5851F006BBB9C /* StatusLabelDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CA63F1DE5851F006BBB9C /* StatusLabelDesign.swift */; };
+		218CA6421DE5CF2E006BBB9C /* UIRoundedCornerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CA6411DE5CF2E006BBB9C /* UIRoundedCornerLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		218CA6311DE49280006BBB9C /* aiteru_ios_clientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aiteru_ios_clientUITests.swift; sourceTree = "<group>"; };
 		218CA6331DE49280006BBB9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		218CA63F1DE5851F006BBB9C /* StatusLabelDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusLabelDesign.swift; sourceTree = "<group>"; };
+		218CA6411DE5CF2E006BBB9C /* UIRoundedCornerLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIRoundedCornerLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				218CA61A1DE49280006BBB9C /* LaunchScreen.storyboard */,
 				218CA61D1DE49280006BBB9C /* Info.plist */,
 				218CA63F1DE5851F006BBB9C /* StatusLabelDesign.swift */,
+				218CA6411DE5CF2E006BBB9C /* UIRoundedCornerLabel.swift */,
 			);
 			path = "aiteru-ios-client";
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				218CA6141DE49280006BBB9C /* ViewController.swift in Sources */,
+				218CA6421DE5CF2E006BBB9C /* UIRoundedCornerLabel.swift in Sources */,
 				218CA6401DE5851F006BBB9C /* StatusLabelDesign.swift in Sources */,
 				218CA6121DE49280006BBB9C /* AppDelegate.swift in Sources */,
 			);
