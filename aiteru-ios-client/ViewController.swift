@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
-        placeLabel.text = "Usual Place"
+        placeLabel.text = "Office"
         statusLabel.text = "OPEN"
 
 //        let roundedCornerLabel = UIRoundedCornerLabel(frame: CGRectMake(0, 100, 300, 25),
