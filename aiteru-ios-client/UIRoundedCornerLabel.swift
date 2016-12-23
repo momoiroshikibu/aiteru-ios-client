@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 let defaultPadding: CGFloat = 8
-let defaultBorderColor: CGColor = UIColor.whiteColor().CGColor
+let defaultBorderColor: CGColor = UIColor.white.cgColor
 let defaultBorderWidth: CGFloat = 4
 let defaultBorderRadius: CGFloat = 4
 
@@ -41,7 +41,7 @@ class UIRoundedCornerLabel: UILabel {
         super.init(coder: aDecoder)
     }
 
-    override func drawTextInRect(rect: CGRect) {
+    override func drawText(in rect: CGRect) {
         let inset: UIEdgeInsets = UIEdgeInsets(top: self.padding,
                                                left: self.padding,
                                                bottom: self.padding,
@@ -50,6 +50,6 @@ class UIRoundedCornerLabel: UILabel {
         self.layer.borderWidth = self.borderWidth
         self.layer.cornerRadius = self.borderRadius
 
-        super.drawTextInRect(UIEdgeInsetsInsetRect(rect, inset))
+        super.drawText(in: UIEdgeInsetsInsetRect(rect, inset))
     }
 }

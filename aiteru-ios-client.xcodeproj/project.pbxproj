@@ -200,15 +200,18 @@
 					218CA60D1DE49280006BBB9C = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = PK37ZT94CB;
+						LastSwiftMigration = 0820;
 					};
 					218CA6211DE49280006BBB9C = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = PK37ZT94CB;
+						LastSwiftMigration = 0820;
 						TestTargetID = 218CA60D1DE49280006BBB9C;
 					};
 					218CA62C1DE49280006BBB9C = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = PK37ZT94CB;
+						LastSwiftMigration = 0820;
 						TestTargetID = 218CA60D1DE49280006BBB9C;
 					};
 				};
@@ -414,6 +417,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.momoiroshikibu.aiteru-ios-client";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -425,6 +429,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.momoiroshikibu.aiteru-ios-client";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -436,6 +441,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.momoiroshikibu.aiteru-ios-clientTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aiteru-ios-client.app/aiteru-ios-client";
 			};
 			name = Debug;
@@ -448,6 +454,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.momoiroshikibu.aiteru-ios-clientTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aiteru-ios-client.app/aiteru-ios-client";
 			};
 			name = Release;
@@ -459,6 +466,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.momoiroshikibu.aiteru-ios-clientUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "aiteru-ios-client";
 			};
 			name = Debug;
@@ -470,6 +478,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.momoiroshikibu.aiteru-ios-clientUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "aiteru-ios-client";
 			};
 			name = Release;
@@ -493,6 +502,7 @@
 				218CA6381DE49280006BBB9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		218CA6391DE49280006BBB9C /* Build configuration list for PBXNativeTarget "aiteru-ios-clientTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +511,7 @@
 				218CA63B1DE49280006BBB9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		218CA63C1DE49280006BBB9C /* Build configuration list for PBXNativeTarget "aiteru-ios-clientUITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +520,7 @@
 				218CA63E1DE49280006BBB9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
